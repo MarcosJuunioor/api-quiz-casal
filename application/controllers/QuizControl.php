@@ -10,6 +10,7 @@ class QuizControl extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();		
+		$this->load->model('QuizModel');
 	}
 
 	public function index()
